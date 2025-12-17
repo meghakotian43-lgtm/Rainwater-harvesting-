@@ -1,0 +1,38 @@
+header
+{
+    background-color: rgb(9, 209, 231);
+    text-align: center;
+    font-size: xx-large;
+}
+.nav{
+  background-color: rgb(143, 228, 237);
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+    text-align: center;
+}
+.container {
+    text-align: center;
+}
+body {
+  background-color: #ffffff;
+  color: #000000;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+body.dark-mode a {
+  color: #90caf9;
+}
+#theme {
+  margin-top: 10px;
+  padding: 6px 12px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
